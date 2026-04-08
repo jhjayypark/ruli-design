@@ -12,6 +12,7 @@ storybook-static/
 .env.development.local
 .env.test.local
 .env.production.local
+.npmrc
 
 # Debug
 npm-debug.log*
@@ -20,3 +21,4 @@ npm-debug.log*
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+.vercel
