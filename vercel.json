@@ -1,5 +1,7 @@
 {
-  "name": "ruli-design",
   "buildCommand": "npm run build",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "env": {
+    "NPM_RC": "@nucleoapp:registry=https://npm.nucleoapp.com\n//npm.nucleoapp.com/:_authToken=909dxvpz4i7MnqsKUrPeghGRymyV2U"
+  }
 }
