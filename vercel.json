@@ -1,0 +1,5 @@
+{
+  "name": "ruli-design",
+  "buildCommand": "npm run build",
+  "framework": "nextjs"
+}
