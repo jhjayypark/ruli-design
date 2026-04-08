@@ -1,0 +1,460 @@
+
+> ruli-playground@0.1.0 build-storybook
+> storybook build --output-dir=/var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs
+
+
+[90m┌[39m  Building storybook v10.3.5
+[90m│[39m
+[32m◇[39m  Cleaning outputDir:
+[90m│[39m  [36m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs[39m
+[90m│[39m
+[32m◇[39m  Loading presets
+[90m│[39m
+[32m◇[39m  Building manager..
+[90m│[39m
+[34m●[39m  Storybook collects completely anonymous usage telemetry. We use it to
+[90m│[39m  shape Storybook's roadmap and prioritize features. You can learn more,
+[90m│[39m  including how to opt out, at ]8;;https://storybook.js.org/telemetryhttps://storybook.js.org/telemetry]8;;
+[90m│[39m
+[34m●[39m  Building preview..
+[90m│[39m
+[33m▲[39m  No story files found for the specified pattern: [34msrc/**/*.mdx[39m
+[90m│[39m
+[34m●[39m  Copying static files: [36mpublic[39m at
+[90m│[39m  [36m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs[39m
+[90m│[39m  [43mVite[49m [36mvite v7.3.2 [32mbuilding client environment for production...[36m[39m
+[90m│[39m  [43mVite[49m transforming...
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/SegmentedControl/SegmentedControl.tsx (1:0): Error[39m
+[90m│[39m  [33mwhen using sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/SegmentedControl/SegmentedControl.tsx (1:0):[39m
+[90m│[39m  [33mModule level directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/SegmentedControl/SegmentedControl.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/ConfirmDialog/ConfirmDialog.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/ConfirmDialog/ConfirmDialog.tsx (1:0): Module[39m
+[90m│[39m  [33mlevel directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/ConfirmDialog/ConfirmDialog.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/RadioButton/RadioButton.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/RadioButton/RadioButton.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/RadioButton/RadioButton.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DropdownGroup/DropdownGroup.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DropdownGroup/DropdownGroup.tsx (1:0): Module[39m
+[90m│[39m  [33mlevel directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/DropdownGroup/DropdownGroup.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileUpload/FileUpload.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileUpload/FileUpload.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/FileUpload/FileUpload.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DatePicker/DatePickerSlot.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DatePicker/DatePickerSlot.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/DatePicker/DatePickerSlot.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DatePicker/DatePicker.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DatePicker/DatePicker.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/DatePicker/DatePicker.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DropdownItem/DropdownItem.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/DropdownItem/DropdownItem.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/DropdownItem/DropdownItem.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Sidebar/Sidebar.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Sidebar/Sidebar.tsx (1:0): Module level directives[39m
+[90m│[39m  [33mcause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Sidebar/Sidebar.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileCard/FileCard.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileCard/FileCard.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/FileCard/FileCard.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileIcon/FileIcon.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/FileIcon/FileIcon.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/FileIcon/FileIcon.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/GridTemplateCard/GridTemplateCard.tsx (1:0): Error[39m
+[90m│[39m  [33mwhen using sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/GridTemplateCard/GridTemplateCard.tsx (1:0):[39m
+[90m│[39m  [33mModule level directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/GridTemplateCard/GridTemplateCard.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Tab/Tab.tsx (1:0): Error when using sourcemap for[39m
+[90m│[39m  [33mreporting an error: Can't resolve original location of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Tab/Tab.tsx (1:0): Module level directives cause[39m
+[90m│[39m  [33merrors when bundled, "use client" in "src/components/Tab/Tab.tsx" was[39m
+[90m│[39m  [33mignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Checkbox/Checkbox.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Checkbox/Checkbox.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Checkbox/Checkbox.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/SubDropdownItem/SubDropdownItem.tsx (1:0): Error[39m
+[90m│[39m  [33mwhen using sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/SubDropdownItem/SubDropdownItem.tsx (1:0): Module[39m
+[90m│[39m  [33mlevel directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/SubDropdownItem/SubDropdownItem.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Input/Input.tsx (1:0): Error when using sourcemap[39m
+[90m│[39m  [33mfor reporting an error: Can't resolve original location of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Input/Input.tsx (1:0): Module level directives[39m
+[90m│[39m  [33mcause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Input/Input.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Toggle/Toggle.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Toggle/Toggle.tsx (1:0): Module level directives[39m
+[90m│[39m  [33mcause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Toggle/Toggle.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Tooltip/Tooltip.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Tooltip/Tooltip.tsx (1:0): Module level directives[39m
+[90m│[39m  [33mcause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Tooltip/Tooltip.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Toast/ToastButton.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/Toast/ToastButton.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/Toast/ToastButton.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/ChatInput/ChatInput.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/ChatInput/ChatInput.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/ChatInput/ChatInput.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/TextArea/TextArea.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/TextArea/TextArea.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/TextArea/TextArea.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/TextPreset/TextPreset.tsx (1:0): Error when using[39m
+[90m│[39m  [33msourcemap for reporting an error: Can't resolve original location of[39m
+[90m│[39m  [33merror.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/TextPreset/TextPreset.tsx (1:0): Module level[39m
+[90m│[39m  [33mdirectives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/TextPreset/TextPreset.tsx" was ignored.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/NewGridDialog/NewGridDialog.tsx (1:0): Error when[39m
+[90m│[39m  [33musing sourcemap for reporting an error: Can't resolve original[39m
+[90m│[39m  [33mlocation of error.[39m
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33msrc/components/NewGridDialog/NewGridDialog.tsx (1:0): Module[39m
+[90m│[39m  [33mlevel directives cause errors when bundled, "use client" in[39m
+[90m│[39m  [33m"src/components/NewGridDialog/NewGridDialog.tsx" was ignored.[39m
+[90m│[39m  [43mVite[49m [32m✓[39m 2345 modules transformed.
+[90m│[39m  [43mVite[49m rendering chunks...
+[90m│[39m  [43mVite[49m computing gzip size...
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[32miframe.html[39m[1m[2m[22m
+[90m│[39m  [2m18.65 kB[22m[1m[22m[2m │ gzip:   5.26 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[35miframe-CU8_DK_9.css[39m[1m[2m[22m
+[90m│[39m  [2m46.77 kB[22m[1m[22m[2m │ gzip:   8.54 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mjsx-runtime-CvlPVmYy.js[39m[1m[2m[22m
+[90m│[39m  [2m0.07 kB[22m[1m[22m[2m │ gzip:   0.08 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mindex-D4PU0zOS.js[39m[1m[2m[22m
+[90m│[39m  [2m0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIcon-DUA9d4Zv.js[39m[1m[2m[22m
+[90m│[39m  [2m0.27 kB[22m[1m[22m[2m │ gzip:   0.22 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mformatter-EIJCOSYU-CMub6PcE.js[39m[1m[2m[22m
+[90m│[39m  [2m0.32 kB[22m[1m[22m[2m │ gzip:   0.25 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconDots-OiGlZuNH.js[39m[1m[2m[22m
+[90m│[39m  [2m0.44 kB[22m[1m[22m[2m │ gzip:   0.24 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconArrowUp-DsZMwsWR.js[39m[1m[2m[22m
+[90m│[39m  [2m0.48 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconXmark-BebHLPQ6.js[39m[1m[2m[22m
+[90m│[39m  [2m0.48 kB[22m[1m[22m[2m │ gzip:   0.25 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconPlus-VTq14rqq.js[39m[1m[2m[22m
+[90m│[39m  [2m0.49 kB[22m[1m[22m[2m │ gzip:   0.26 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconLockFilled-sDug48Ql.js[39m[1m[2m[22m
+[90m│[39m  [2m0.62 kB[22m[1m[22m[2m │ gzip:   0.37 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableRowBg-8e7Cq6WY.js[39m[1m[2m[22m
+[90m│[39m  [2m0.63 kB[22m[1m[22m[2m │ gzip:   0.40 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconTrashFilled-D5MO4LlY.js[39m[1m[2m[22m
+[90m│[39m  [2m0.69 kB[22m[1m[22m[2m │ gzip:   0.36 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconCalendar-CWGQo-Bu.js[39m[1m[2m[22m
+[90m│[39m  [2m0.75 kB[22m[1m[22m[2m │ gzip:   0.33 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconMagnifier-BKzchyql.js[39m[1m[2m[22m
+[90m│[39m  [2m0.92 kB[22m[1m[22m[2m │ gzip:   0.47 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDropdownGroup-DGXYvLu3.js[39m[1m[2m[22m
+[90m│[39m  [2m1.05 kB[22m[1m[22m[2m │ gzip:   0.54 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconSlider-BAXT4PG5.js[39m[1m[2m[22m
+[90m│[39m  [2m1.12 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mpreload-helper-PPVm8Dsz.js[39m[1m[2m[22m
+[90m│[39m  [2m1.23 kB[22m[1m[22m[2m │ gzip:   0.71 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconGlobe-mlPic7Yt.js[39m[1m[2m[22m
+[90m│[39m  [2m1.27 kB[22m[1m[22m[2m │ gzip:   0.37 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mIconCircleDashed-CVMKMVn_.js[39m[1m[2m[22m
+[90m│[39m  [2m1.60 kB[22m[1m[22m[2m │ gzip:   0.50 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableRowBg.stories-D0mhn7ch.js[39m[1m[2m[22m
+[90m│[39m  [2m2.48 kB[22m[1m[22m[2m │ gzip:   0.76 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTooltip-dksf2GAj.js[39m[1m[2m[22m
+[90m│[39m  [2m2.54 kB[22m[1m[22m[2m │ gzip:   1.23 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSubDropdownItem-COCa64WE.js[39m[1m[2m[22m
+[90m│[39m  [2m2.61 kB[22m[1m[22m[2m │ gzip:   1.08 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDatePickerSlot-2NMlI-_p.js[39m[1m[2m[22m
+[90m│[39m  [2m3.03 kB[22m[1m[22m[2m │ gzip:   1.10 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mCheckbox-mis8Wtup.js[39m[1m[2m[22m
+[90m│[39m  [2m3.08 kB[22m[1m[22m[2m │ gzip:   1.43 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mAvatar-CUBVOGti.js[39m[1m[2m[22m
+[90m│[39m  [2m3.24 kB[22m[1m[22m[2m │ gzip:   1.25 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSidebarTab-B-wPF--F.js[39m[1m[2m[22m
+[90m│[39m  [2m3.29 kB[22m[1m[22m[2m │ gzip:   1.34 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mActionReveal-D-1MqpXV.js[39m[1m[2m[22m
+[90m│[39m  [2m3.29 kB[22m[1m[22m[2m │ gzip:   1.39 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mToggle.stories-4Xrq2GIJ.js[39m[1m[2m[22m
+[90m│[39m  [2m3.76 kB[22m[1m[22m[2m │ gzip:   1.42 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableColumn.stories-CAVXSV7N.js[39m[1m[2m[22m
+[90m│[39m  [2m3.87 kB[22m[1m[22m[2m │ gzip:   1.16 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSidebarTab.stories-DZt6ZhBO.js[39m[1m[2m[22m
+[90m│[39m  [2m3.96 kB[22m[1m[22m[2m │ gzip:   1.04 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mFileIcon.stories-RnYcdP31.js[39m[1m[2m[22m
+[90m│[39m  [2m4.06 kB[22m[1m[22m[2m │ gzip:   1.01 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mFileCard.stories-DDCuFPX1.js[39m[1m[2m[22m
+[90m│[39m  [2m4.12 kB[22m[1m[22m[2m │ gzip:   1.06 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTextArea-Cf4CSQY8.js[39m[1m[2m[22m
+[90m│[39m  [2m4.70 kB[22m[1m[22m[2m │ gzip:   1.55 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSegmentedControl.stories-DLBsv88C.js[39m[1m[2m[22m
+[90m│[39m  [2m4.91 kB[22m[1m[22m[2m │ gzip:   1.57 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mActionReveal.stories-CZIq-ptA.js[39m[1m[2m[22m
+[90m│[39m  [2m5.22 kB[22m[1m[22m[2m │ gzip:   1.37 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mInput-B8KtOU-g.js[39m[1m[2m[22m
+[90m│[39m  [2m5.34 kB[22m[1m[22m[2m │ gzip:   1.80 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mAvatar.stories-BdamA0qj.js[39m[1m[2m[22m
+[90m│[39m  [2m5.39 kB[22m[1m[22m[2m │ gzip:   1.37 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableCell-HvdZ30_R.js[39m[1m[2m[22m
+[90m│[39m  [2m5.43 kB[22m[1m[22m[2m │ gzip:   1.68 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTextArea.stories-CInnPELk.js[39m[1m[2m[22m
+[90m│[39m  [2m5.48 kB[22m[1m[22m[2m │ gzip:   1.10 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mConfirmDialog.stories-CYq0-HpX.js[39m[1m[2m[22m
+[90m│[39m  [2m5.54 kB[22m[1m[22m[2m │ gzip:   1.82 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mFileUpload.stories-0ogl7hwy.js[39m[1m[2m[22m
+[90m│[39m  [2m5.61 kB[22m[1m[22m[2m │ gzip:   1.88 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDatePickerSlot.stories-BLbdWfOe.js[39m[1m[2m[22m
+[90m│[39m  [2m5.63 kB[22m[1m[22m[2m │ gzip:   1.69 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTooltip.stories-Dsqsi802.js[39m[1m[2m[22m
+[90m│[39m  [2m5.64 kB[22m[1m[22m[2m │ gzip:   1.21 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDropdownItem-C4kIFR9S.js[39m[1m[2m[22m
+[90m│[39m  [2m5.65 kB[22m[1m[22m[2m │ gzip:   1.79 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mButton-DQQ5Jvqa.js[39m[1m[2m[22m
+[90m│[39m  [2m5.81 kB[22m[1m[22m[2m │ gzip:   1.65 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableCell.stories-BCX3mHYc.js[39m[1m[2m[22m
+[90m│[39m  [2m6.06 kB[22m[1m[22m[2m │ gzip:   1.45 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableColumn-8w97vf_R.js[39m[1m[2m[22m
+[90m│[39m  [2m6.62 kB[22m[1m[22m[2m │ gzip:   1.96 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTab.stories-fwJabb8Z.js[39m[1m[2m[22m
+[90m│[39m  [2m7.95 kB[22m[1m[22m[2m │ gzip:   2.36 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDropdownGroup.stories-BNOnmgaC.js[39m[1m[2m[22m
+[90m│[39m  [2m8.59 kB[22m[1m[22m[2m │ gzip:   1.78 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mButton.stories-DkTzoCwG.js[39m[1m[2m[22m
+[90m│[39m  [2m8.63 kB[22m[1m[22m[2m │ gzip:   1.71 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mCheckbox.stories-KB9txZM8.js[39m[1m[2m[22m
+[90m│[39m  [2m8.75 kB[22m[1m[22m[2m │ gzip:   2.19 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableHeader.stories-CncN-gJv.js[39m[1m[2m[22m
+[90m│[39m  [2m8.85 kB[22m[1m[22m[2m │ gzip:   1.72 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mFileCard-DbGMIxXB.js[39m[1m[2m[22m
+[90m│[39m  [2m8.93 kB[22m[1m[22m[2m │ gzip:   2.34 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mRadioButton.stories-RVAYGpif.js[39m[1m[2m[22m
+[90m│[39m  [2m8.94 kB[22m[1m[22m[2m │ gzip:   2.73 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTag.stories-Cj90iurf.js[39m[1m[2m[22m
+[90m│[39m  [2m9.07 kB[22m[1m[22m[2m │ gzip:   2.24 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSubDropdownItem.stories-DV9VNCO-.js[39m[1m[2m[22m
+[90m│[39m  [2m9.19 kB[22m[1m[22m[2m │ gzip:   1.92 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTableHeader-DxcKJbIr.js[39m[1m[2m[22m
+[90m│[39m  [2m9.71 kB[22m[1m[22m[2m │ gzip:   2.43 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mTextPreset.stories-dUF0oG82.js[39m[1m[2m[22m
+[90m│[39m  [2m11.22 kB[22m[1m[22m[2m │ gzip:   2.38 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mInput.stories-cAeNa8uc.js[39m[1m[2m[22m
+[90m│[39m  [2m12.51 kB[22m[1m[22m[2m │ gzip:   2.60 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mToast.stories-DBo-rP-8.js[39m[1m[2m[22m
+[90m│[39m  [2m13.96 kB[22m[1m[22m[2m │ gzip:   3.45 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDatePicker.stories-CRHO4Cop.js[39m[1m[2m[22m
+[90m│[39m  [2m15.00 kB[22m[1m[22m[2m │ gzip:   4.02 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mChatInput.stories-CvdYdT2t.js[39m[1m[2m[22m
+[90m│[39m  [2m16.85 kB[22m[1m[22m[2m │ gzip:   4.47 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mGridTemplateCard.stories-YCgjpLYS.js[39m[1m[2m[22m
+[90m│[39m  [2m16.96 kB[22m[1m[22m[2m │ gzip:   4.48 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mSidebar.stories-BmH-mjt0.js[39m[1m[2m[22m
+[90m│[39m  [2m17.88 kB[22m[1m[22m[2m │ gzip:   4.33 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDropdownItem.stories-BoI4Pbfa.js[39m[1m[2m[22m
+[90m│[39m  [2m18.43 kB[22m[1m[22m[2m │ gzip:   3.16 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
+[90m│[39m  [2m28.11 kB[22m[1m[22m[2m │ gzip:   9.82 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mmatchers-5TDFFDYO-HJu_DfWo.js[39m[1m[2m[22m
+[90m│[39m  [2m29.23 kB[22m[1m[22m[2m │ gzip:  10.06 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mColor-FRDS63T2-FiXId-m4.js[39m[1m[2m[22m
+[90m│[39m  [2m30.03 kB[22m[1m[22m[2m │ gzip:  11.40 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mGridTable.stories-CsCL_QGf.js[39m[1m[2m[22m
+[90m│[39m  [2m32.01 kB[22m[1m[22m[2m │ gzip:   6.95 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mWithTooltip-65CFNBJE-DaRgrumL.js[39m[1m[2m[22m
+[90m│[39m  [2m33.14 kB[22m[1m[22m[2m │ gzip:  11.68 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mNewGridDialog.stories-DI1wANt1.js[39m[1m[2m[22m
+[90m│[39m  [2m33.52 kB[22m[1m[22m[2m │ gzip:   7.78 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mFileIcon-DTDlQaTn.js[39m[1m[2m[22m
+[90m│[39m  [2m39.73 kB[22m[1m[22m[2m │ gzip:  11.72 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36msyntaxhighlighter-OH4MV7E3-BzoI2S1U.js[39m[1m[2m[22m
+[90m│[39m  [2m78.22 kB[22m[1m[22m[2m │ gzip:  27.44 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mreact-18-BX6_Xcu0.js[39m[1m[2m[22m
+[90m│[39m  [2m206.32 kB[22m[1m[22m[2m │ gzip:  64.62 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36maxe-PdkNAHGV.js[39m[1m[33m[39m
+[90m│[39m  [33m581.79 kB[39m[22m[2m │ gzip: 160.24 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36mDocsRenderer-LL677BLK-htT80fVj.js[39m[1m[33m[39m
+[90m│[39m  [33m816.38 kB[39m[22m[2m │ gzip: 261.27 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../../../var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs/[22m[2massets/[22m[36miframe-BU3G-mV3.js[39m
+[90m│[39m  [36m[39m[1m[33m1,283.06 kB[39m[22m[2m │ gzip: 363.14 kB[22m
+[90m│[39m
+[33m▲[39m  [43mVite[49m[33m
+[90m│[39m  (!) Some chunks are larger than 500 kB after minification. Consider:
+[90m│[39m  - Using dynamic import() to code-split the application
+[90m│[39m  - Use build.rollupOptions.output.manualChunks to improve chunking:
+[90m│[39m  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+[90m│[39m  - Adjust chunk size limit for this warning via
+[90m│[39m  build.chunkSizeWarningLimit.[39m
+[90m│[39m  [43mVite[49m [32m✓ built in 5.30s[39m
+[90m│[39m
+[32m◇[39m  Output directory:
+[90m│[39m  /var/folders/58/ws5f65k131l47mwsm7sn8ydw0000gn/T/chromatic--48769-2AD0BpWhFWWs
+[90m│[39m
+[90m└[39m  Storybook build completed successfully
+
