@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/* Hide scrollbar utility */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* SidebarTab — collapsed hover: show tooltip + darken icon */
+@media (hover: hover) {
+  .sidebar-tab[data-collapsed]:hover > .sidebar-tab-tooltip {
+    display: flex !important;
+  }
+  .sidebar-tab[data-collapsed]:hover > .sidebar-tab-icon {
+    color: var(--color-text-secondary);
+  }
+}

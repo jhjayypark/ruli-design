@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "colors/dark",
+    "colors/warm light",
+    "typography/Mode 1",
+    "numbers/Mode 1"
+  ]
+}
